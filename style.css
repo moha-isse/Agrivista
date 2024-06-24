@@ -1,0 +1,510 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+ }
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px 60px;
+    align-items: center;
+ }
+
+ .header ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+
+    
+ }
+
+ .loginBtn {
+    background-color: #204e51;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    padding: 10px 40px;
+ }
+
+ .signBtn {
+    font-size: 30px;
+    color: #204e51;
+    border: 3px #204e51 solid;
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: white;
+ }
+
+ .hero {
+    text-align: center;
+    color: white;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://img.freepik.com/free-photo/refreshment-from-as-sprinklers-arc-water-geometric-greenery-fields_91128-4673.jpg?t=st=1716716989~exp=1716720589~hmac=573b22c4506397709c8133426e37847f0795dcbfe2a745b85fff49e731148551&w=996");
+ }
+
+ .hero h1 {
+    font-size: 80px;
+    padding-top: 80px;
+
+ }
+
+ .hero p {
+    margin-top: 40px;
+ }
+
+ .started {
+    font-size: 30px;
+    color: #204e51;
+    border: 3px #204e51 solid;
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: white;
+ }
+ 
+ .learn{
+    background-color: #204e51;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    padding: 30px 30px;
+ }
+
+ .main {
+   height: 600px;
+   
+   display: flex;
+   justify-self: space-between;
+   padding: 20px 40px;
+   margin-top: 50px;
+   color: #144144;
+   
+ } 
+
+ .main h1 {
+   font-size: 40px;
+ }
+ .main p {
+   padding-top: 10px;
+   padding-bottom: 20px;
+ }
+
+ .main button {
+   border-radius: 5px;
+   background-color: rgb(4, 71, 4);
+   color: white;
+   width: 110px;
+   height: 30px;
+
+ }
+
+
+ .child-2 {
+   position: relative;
+ }
+ .child-2 img {
+ width: 400px;
+ height: 400px;
+ position: relative;
+ border-radius: 15px;
+ }
+
+ .child3{
+   position: absolute;
+   background-color: white;
+   bottom: 180px;
+   left: 160px;
+   color: #204e51;
+   border-radius: 10px;
+   width: 100px;
+   border: 4px rgb(245, 229, 229) solid;
+   font-size: 20px;
+ }
+
+ .service-title {
+ 
+ 
+ }
+
+ 
+
+ .service-parent {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   margin: 50px 2px ;
+ }
+ .service {
+   border-radius: 10px;
+  background-color: rgb(19, 75, 19);
+   width: 250px;
+   height: 300px;
+   margin: 12px;
+   text-align: center;
+   color: white;
+ }
+
+ .service i {
+   color: white;
+   padding-top: 80px;
+   padding-bottom: 17px;
+   font-size: 60px;
+ }
+
+ .product {
+   padding-top: 20px;
+   padding-left: 30px;
+   width: 250px;
+   height: 400px;
+   background-color: lightblue;
+   border-radius: 12px;
+   
+ }
+
+ .product-parent {
+   align-items: center;
+   margin: 50px 2px;
+   justify-content: center;
+   display: flex;
+   gap: 40px;
+ }
+ 
+ .link {
+   text-align: center;
+ } 
+ .link a {
+   color: #204e51;
+   font-size: 20px;
+ }
+ .sustain {
+  background-repeat: no-repeat;
+  background-size: 100% 550px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://img.freepik.com/free-photo/high-angle-farmland-view_23-2148579680.jpg?t=st=1716895636~exp=1716899236~hmac=b73be90d99fae7cfd4af02bd3a369d326eee2f60452ebff232efdc9e22d26b34&w=740") ;
+  padding: 40px;
+  color: white;
+}
+
+.sustain h1 {
+  font-size: 80px;
+  margin-bottom: 30px;
+} 
+
+.sustain signBtn {
+  font-size: 30px;
+    color: #204e51;
+    border: 3px #204e51 solid;
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: white;
+}
+
+.benefit-parent {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.benefit-left{
+  width: 500px;
+  
+}
+.benefit-right {
+  height: 500px;
+  width: 450px;
+  background-color: #204e51;
+  border-radius: 12px;
+}
+
+.benefit-left h1 {
+  padding-bottom: 40px;
+  font-size: 60px;
+}
+
+.benefit-left p {
+  margin-bottom: 30px;
+}
+
+.benefit-left button {
+  background-color: #204e51;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 30px;
+  padding: 10px 40px;
+}
+.icon-parent {
+  display: flex;
+  color: white;
+  margin: 30px;
+  gap: 60px;
+}
+
+.icon-parent i {
+  font-size: 60px;
+}
+
+.icon-parent h1 {
+  font-size: 60px;
+}
+
+.service-title {
+  padding-left: 40px;
+}
+.service-title h1 {
+  color: #204e51;
+  align-items: center;
+}
+
+.service-title p{
+  align-items: center;
+}
+
+.test-parent {
+    display: grid;
+    grid-template-columns: 100px 900px 100px;
+    column-gap: 40px;
+    justify-content: center;
+    row-gap: 40px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    
+} 
+.test-2 {
+  width: 100%;
+  height: 300px;
+  background-color: #204e51;
+  border-radius: 10px;
+}
+
+.test-1 i {
+  margin-top: 90px;
+  margin-left: 80px;
+  font-size: 80px;
+}
+
+.test-3 i {
+  margin-top: 90px;
+  font-size: 80px;
+}
+
+
+.testimon{
+  align-items: center;
+   margin: 50px 2px;
+   gap: 40px;
+   color: white;
+}
+
+.testimon-parent {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+ 
+}
+
+.testimon-parent img {
+  padding: 40px;
+ 
+}
+
+.testimon i {
+  color: gold;
+  padding-bottom: 10px;
+
+}
+
+.testimon h1 {
+  padding-bottom: 10px;
+}
+
+.testimon h6 {
+  padding-bottom: 10px;
+}
+
+.testimon p {
+  padding-bottom: 10px;
+}
+
+.final-parent{
+  display: flex;
+  grid-template-columns: (300px, 300px, 300px);
+  column-gap: 110px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.final {
+ padding-top: 30px;
+}
+
+.final h1 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.final a{
+ font-size: 15px;
+ color: #204e51;
+
+}
+
+.final p {
+  padding-bottom: 20px;
+}
+
+.footer-parent{
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+}
+.ali {
+  height: 200px;
+  padding: 90px;
+  background-color: #204e51;
+}
+.farms h1, p {
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+.sawir {
+  background-color: white;
+  
+  
+}
+
+.pages-footer ul {
+  list-style: none;
+  padding: 10px;
+  gap: 40px;
+
+}
+
+.about-footer ul{
+  list-style: none;
+  padding: 20px;
+  
+}
+.header i {
+  display: none;
+}
+
+@media screen and (max-width: 600px ) 
+{
+ .header ul {
+  display: none;
+ }
+ .btn {
+  display: none;
+ }
+ .header {
+  padding: 12px;
+ }
+ .header h1 {
+  font-size: 26px;
+ }
+ .header i {
+  display: block;
+  font-size: 60px;
+ }
+ .hero h1 {
+  font-size: 30px;
+  margin:  10px;
+ }
+ 
+ .btn {
+  margin-bottom: 30px;
+ }
+ .benefit-left {
+  font-size: 26px;
+ }
+ 
+ .main {
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 300px;
+ }
+ .service-title {
+  align-items: center;
+  
+ }
+ .service-title h1 {
+  font-size: 15px;
+}
+.service-parent {
+  flex-direction: column;
+  
+  
+}  
+.child-2 img {
+  width: 100%;
+  height: 300px;
+}
+.child3 {
+  position: absolute;
+  background-color: white;
+  bottom: -10px;
+  left: 90px;
+  color: #204e51;
+  border-radius: 10px;
+  width: 100px;
+  border: 4px rgb(245, 229, 229) solid;
+  font-size: 20px;
+} 
+.product-parent {
+  flex-direction: column;
+  margin-top: 40px;
+}
+.sustain h1 {
+  font-size: 30px;
+}
+.benefit-parent {
+  flex-direction: column;
+  margin: 10px;
+}
+.benefit-left h1{
+  font-size: 40px;
+  padding: 10px;
+}
+
+.benefit-left p {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+.test-parent {
+  flex-direction: column;
+  width: 100%;
+}
+.final-parent {
+  flex-direction: column;
+}
+.final img {
+  width: 300px;
+}
+.benefit-right{
+  width: 100%;
+}
+.footer-parent {
+  flex-direction: column;
+}
+.pages-footer {
+  flex-direction: column;
+}
+.ali{
+  height: 450px;
+}
+
+}
